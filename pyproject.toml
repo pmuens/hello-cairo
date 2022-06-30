@@ -8,6 +8,11 @@ authors = ["Philipp Muens <philipp@muens.io>"]
 python = "^3.9"
 
 [tool.poetry.dev-dependencies]
+ecdsa = "^0.17.0"
+fastecdsa = "^2.2.3"
+sympy = "^1.10.1"
+cairo-lang = "^0.9.0"
+black = "^22.6.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
